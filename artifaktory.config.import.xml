@@ -4,11 +4,11 @@
     <archiveIndexEnabled>false</archiveIndexEnabled>
     <helpLinksEnabled>true</helpLinksEnabled>
     <fileUploadMaxSizeMb>100</fileUploadMaxSizeMb>
-    <revision>4</revision>
+    <revision>2</revision>
     <dateFormat>dd-MM-yy HH:mm:ss z</dateFormat>
     <addons>
         <showAddonsInfo>true</showAddonsInfo>
-        <showAddonsInfoCookie>1670003641566</showAddonsInfoCookie>
+        <showAddonsInfoCookie>1670011844695</showAddonsInfoCookie>
     </addons>
     <security>
         <hideUnauthorizedResources>false</hideUnauthorizedResources>
@@ -27,12 +27,6 @@
         </passwordSettings>
         <ldapSettings/>
         <ldapGroupSettings/>
-        <oauthSettings>
-            <enableIntegration>false</enableIntegration>
-            <allowUserToAccessProfile>false</allowUserToAccessProfile>
-            <persistUsers>false</persistUsers>
-            <oauthProvidersSettings/>
-        </oauthSettings>
         <buildGlobalBasicReadAllowed>false</buildGlobalBasicReadAllowed>
         <buildGlobalBasicReadForAnonymous>false</buildGlobalBasicReadForAnonymous>
         <basicAuthEnabled>true</basicAuthEnabled>
@@ -100,76 +94,43 @@
             <terraformType>MODULE</terraformType>
         </localRepository>
         <localRepository>
-            <key>example-repo-local</key>
-            <type>generic</type>
-            <description>Example artifactory repository</description>
-            <includesPattern>**/*</includesPattern>
-            <repoLayoutRef>simple-default</repoLayoutRef>
-            <dockerApiVersion>V2</dockerApiVersion>
-            <forceNugetAuthentication>false</forceNugetAuthentication>
-            <forceConanAuthentication>false</forceConanAuthentication>
-            <ddebSupported>false</ddebSupported>
-            <signedUrlTtl>90</signedUrlTtl>
-            <blackedOut>false</blackedOut>
-            <handleReleases>true</handleReleases>
-            <handleSnapshots>true</handleSnapshots>
-            <maxUniqueSnapshots>0</maxUniqueSnapshots>
-            <maxUniqueTags>0</maxUniqueTags>
-            <blockPushingSchema1>true</blockPushingSchema1>
-            <suppressPomConsistencyChecks>true</suppressPomConsistencyChecks>
-            <propertySets/>
-            <archiveBrowsingEnabled>false</archiveBrowsingEnabled>
-            <priorityResolution>false</priorityResolution>
-            <snapshotVersionBehavior>unique</snapshotVersionBehavior>
-            <localRepoChecksumPolicyType>client-checksums</localRepoChecksumPolicyType>
-            <calculateYumMetadata>false</calculateYumMetadata>
-            <yumRootDepth>0</yumRootDepth>
-            <debianTrivialLayout>false</debianTrivialLayout>
-            <enableFileListsIndexing>false</enableFileListsIndexing>
-            <dockerTagRetention>1</dockerTagRetention>
-            <enableComposerV1Indexing>false</enableComposerV1Indexing>
-            <terraformType>MODULE</terraformType>
-        </localRepository>
-        <localRepository>
-            <key>genericrepo</key>
-            <type>generic</type>
-            <description></description>
-            <notes></notes>
-            <includesPattern>**/*</includesPattern>
-            <excludesPattern></excludesPattern>
-            <repoLayoutRef>simple-default</repoLayoutRef>
-            <dockerApiVersion>V2</dockerApiVersion>
-            <forceNugetAuthentication>false</forceNugetAuthentication>
-            <forceConanAuthentication>false</forceConanAuthentication>
-            <ddebSupported>false</ddebSupported>
-            <signedUrlTtl>90</signedUrlTtl>
-            <blackedOut>false</blackedOut>
-            <handleReleases>true</handleReleases>
-            <handleSnapshots>true</handleSnapshots>
-            <maxUniqueSnapshots>0</maxUniqueSnapshots>
-            <maxUniqueTags>0</maxUniqueTags>
-            <blockPushingSchema1>true</blockPushingSchema1>
-            <suppressPomConsistencyChecks>true</suppressPomConsistencyChecks>
-            <propertySets/>
-            <archiveBrowsingEnabled>false</archiveBrowsingEnabled>
-            <priorityResolution>false</priorityResolution>
-            <snapshotVersionBehavior>unique</snapshotVersionBehavior>
-            <localRepoChecksumPolicyType>client-checksums</localRepoChecksumPolicyType>
-            <calculateYumMetadata>false</calculateYumMetadata>
-            <yumRootDepth>0</yumRootDepth>
-            <debianTrivialLayout>false</debianTrivialLayout>
-            <enableFileListsIndexing>false</enableFileListsIndexing>
-            <dockerTagRetention>1</dockerTagRetention>
-            <enableComposerV1Indexing>false</enableComposerV1Indexing>
-            <terraformType>MODULE</terraformType>
-        </localRepository>
-        <localRepository>
-            <key>repositorykey1</key>
+            <key>dockerrepo</key>
             <type>docker</type>
             <description></description>
             <notes></notes>
             <includesPattern>**/*</includesPattern>
             <excludesPattern></excludesPattern>
+            <repoLayoutRef>simple-default</repoLayoutRef>
+            <dockerApiVersion>V2</dockerApiVersion>
+            <forceNugetAuthentication>false</forceNugetAuthentication>
+            <forceConanAuthentication>false</forceConanAuthentication>
+            <ddebSupported>false</ddebSupported>
+            <signedUrlTtl>90</signedUrlTtl>
+            <blackedOut>false</blackedOut>
+            <handleReleases>true</handleReleases>
+            <handleSnapshots>true</handleSnapshots>
+            <maxUniqueSnapshots>0</maxUniqueSnapshots>
+            <maxUniqueTags>0</maxUniqueTags>
+            <blockPushingSchema1>true</blockPushingSchema1>
+            <suppressPomConsistencyChecks>true</suppressPomConsistencyChecks>
+            <propertySets/>
+            <archiveBrowsingEnabled>false</archiveBrowsingEnabled>
+            <priorityResolution>false</priorityResolution>
+            <snapshotVersionBehavior>unique</snapshotVersionBehavior>
+            <localRepoChecksumPolicyType>client-checksums</localRepoChecksumPolicyType>
+            <calculateYumMetadata>false</calculateYumMetadata>
+            <yumRootDepth>0</yumRootDepth>
+            <debianTrivialLayout>false</debianTrivialLayout>
+            <enableFileListsIndexing>false</enableFileListsIndexing>
+            <dockerTagRetention>1</dockerTagRetention>
+            <enableComposerV1Indexing>false</enableComposerV1Indexing>
+            <terraformType>MODULE</terraformType>
+        </localRepository>
+        <localRepository>
+            <key>example-repo-local</key>
+            <type>generic</type>
+            <description>Example artifactory repository</description>
+            <includesPattern>**/*</includesPattern>
             <repoLayoutRef>simple-default</repoLayoutRef>
             <dockerApiVersion>V2</dockerApiVersion>
             <forceNugetAuthentication>false</forceNugetAuthentication>
@@ -401,7 +362,7 @@
     </downloadRedirectConfig>
     <eula>
         <accepted>true</accepted>
-        <acceptDate>2022-12-02T18:05:47.819Z</acceptDate>
+        <acceptDate>2022-12-02T20:11:53.913Z</acceptDate>
     </eula>
     <keyPairs/>
     <retentionSettings>
