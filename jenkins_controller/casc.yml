@@ -1,0 +1,19 @@
+---
+jenkins:
+ securityRealm:
+    local:
+      users:
+      - id: "panda"
+        name: "panda"
+        password: "panda"
+  credentials:
+   - usernamePassword:
+      - id: "artifactory"
+        name: : "admin"
+        password: "password"
+        scope: GLOBAL
+  numExecutors: 0 
+  authorizationStrategy:
+    globalMatrix:
+      permissions:
+      - "Overall/Administer:panda"
