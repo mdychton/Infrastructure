@@ -6,30 +6,32 @@ jenkins:
       - id: "panda"
         name: "panda"
         password: "panda"
-  credentials:
-    system:
-      domainCredentials:
-        - usernamePassword:
-           id: "artifactory"
-           name: "admin"
-           password: "password"
-           scope: GLOBAL
-      basicSSHUserPrivateKey:
-          id: "jenkins_agent"
-          username: "jenkins"
-          privateKeySource:
-            directEntry:
-              privateKey:
-                -----BEGIN RSA PRIVATE KEY-----
-                ...
-                -----END RSA PRIVATE KEY-----
-            scope: GLOBAL
   numExecutors: 0 
   authorizationStrategy:
     globalMatrix:
       permissions:
       - "Overall/Administer:panda"
-  tool:
+
+  credentials:
+    system:
+      domainCredentials:
+      - credentials:
+         - usernamePassword:
+           id: "artifactory"
+           name: "admin"
+           password: "password"
+           scope: GLOBAL
+         - basicSSHUserPrivateKey:
+            id: "jenkins_agent"
+            username: "jenkins"
+            privateKeySource:
+              directEntry:
+                privateKey: |
+                 -----BEGIN RSA PRIVATE KEY-----
+                 ...
+                 -----END RSA PRIVATE KEY-----
+            scope: GLOBAL
+tool:
   sonarRunnerInstallation:
     installations:
     - name: "SonarQube"
