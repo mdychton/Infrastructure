@@ -1,34 +1,32 @@
----
-jenkins:
+enkins:
   securityRealm:
     local:
       users:
-      - id: "panda"
-        name: "panda"
-        password: "panda"
-  numExecutors: 0 
+       - id: "panda"
+         password: "panda"
   authorizationStrategy:
     globalMatrix:
       permissions:
-      - "Overall/Administer:panda"
+        - "Overall/Administer:panda"
+  numExecutors: 0
 
-  credentials:
-    system:
-      domainCredentials:
-      - credentials:
-         - usernamePassword:
-           id: "artifactory"
-           username: "admin"
-           password: "password"
-           scope: GLOBAL
-         - basicSSHUserPrivateKey:
-            id: "jenkins_agent"
-            username: "jenkins"
-            privateKeySource:
-              directEntry:
-                privateKey: |
-                 ------BEGIN RSA PRIVATE KEY-----
-                 b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABCRlftim+
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - usernamePassword:
+          id: "artifactory"
+          username: "admin"
+          password: "password"
+          scope: GLOBAL
+      - basicSSHUserPrivateKey:
+          id: "jenkins_agent"
+          username: "jenkins"
+          privateKeySource:
+            directEntry:
+              privateKey: |
+                -----BEGIN RSA PRIVATE KEY-----
+                b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABCRlftim+
                  qsLOaCIk5k9hbrAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQD4H24EpBF8
                  r76tsZdusfNwkPSyeA2ulfQdTIENMeAN6iGem3E2vwe0FxPu+2JjdXfePjlXWqfJIahXMU
                  A1oknQappkwAn/4dovFN/S1odLCsdI5349Uvx8pjKtU8NKr+1S2/WxOPzescW+zdQOTUbh
@@ -65,8 +63,8 @@ jenkins:
                  xPJqqjoxsz5Ts1DYwUF5Cr/DIL8sy/LqNooYSY0qog4nYyx08wVsVnJosYtrViD/og4Xx6
                  bhFJ8pGrqXSLDDVFvBcMKyKLyfRUMaDuI57x6rrkSTxCIjyKp4ehSXQI47ruVCT9Do+Lag
                  HM1vvtA5CSJHFUVrF+H+tgyvTGo=
-                 -----END RSA PRIVATE KEY-----
-            scope: GLOBAL
+                -----END RSA PRIVATE KEY-----
+          scope: GLOBAL
 tool:
   sonarRunnerInstallation:
     installations:
@@ -76,11 +74,10 @@ tool:
           installers:
           - sonarRunnerInstaller:
               id: "4.7.0.2747"
-  unclassified:
-    sonarGlobalConfiguration:
-      buildWrapperEnabled: true
-      installations:
-      - name: "SonarQube"
-        serverUrl: "http://192.168.44.44:9000"
-      
-    
+
+unclassified:
+  sonarGlobalConfiguration:
+    buildWrapperEnabled: true
+    installations:
+    - name: "SonarQube"
+      serverUrl: "http://192.168.44.44:9000"
