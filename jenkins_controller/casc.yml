@@ -27,9 +27,45 @@ jenkins:
             privateKeySource:
               directEntry:
                 privateKey: |
-                 -----BEGIN RSA PRIVATE KEY-----
-                 ...
-                 -----END RSA PRIVATE KEY-----
+                 ------BEGIN OPENSSH PRIVATE KEY-----
+                 b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABCRlftim+
+                 qsLOaCIk5k9hbrAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQD4H24EpBF8
+                 r76tsZdusfNwkPSyeA2ulfQdTIENMeAN6iGem3E2vwe0FxPu+2JjdXfePjlXWqfJIahXMU
+                 A1oknQappkwAn/4dovFN/S1odLCsdI5349Uvx8pjKtU8NKr+1S2/WxOPzescW+zdQOTUbh
+                 QVT+dI8uoIS+DvxCopGprx0+N2HXYB8xqUzrXdplinlMns8U7Wik9tcs5LFD2dbu8YlNUC
+                 RxYDSl1LPWw3+KnbVfNG0BqSOykspT3xAfJ9JAmRx78Ulyi6XHB4iMc7nopJ7DL7dS+Hct
+                 aGI2fX3bfTcKqGf1qZh9JI11e0ZNNWeUj+P9KVBmUgmO3wU6JnDr4tz/6/mAHVqi3Wr4Xo
+                 7s3+e3ODuqnERtylS4109HRDTRF79NWWI2te3koPaP3i0+jwvBTE7e30hYyKX5oC9Ih7U4
+                 i96+zL3NKFgJBe96xTxDqDtL3y7oW46fK5L74HI7trV2Whg6Rzsx569MT6iBjPWFctiSh7
+                 AaOmYzLN5UXQkAAAWQDm7HIgu4yBIgd3QDbinM4w0N5PFoVBjzPPH/7xo5zBH3FnSnd/GY
+                 80sgsJvuOA4nvTHS/npWN7i2XLqkFJ4yRsWBWwX4gPN6ZuXsdNNKmvGsTV6yuVw+gHiq/a
+                 JloQ3+9pWYHKBdIdprVMay9iQDSwgOBXpkp0+1kfXpJSegrj0LzdTFsLCHmyb5fzgIR/pZ
+                 IpwBapIe1NChS8te/qYEKaQ78lou3VzJRdbMGV6XiVglbcu+PFibdorbd5V6EKAQGWb8sp
+                 npMvoj/uTb1NlbsfcCOaMEWwOcVATfCs4jngktZ4cZjvX+39TAkdnfkdAzYkRnNIxk6Dz0
+                 EtCXhUZcw19fiX4YtBBLUi7wRdMric5LQYayJtu99rdxKo9gUVHmvCfYy7UJzPe7wtLlRP
+                 Pk+ScSJtv+yLlvDYo8ukjnp3w7bA6LWqq+F1e8LBRvAjVWRG+gfMLmlnhXC3mKun81XQgK
+                 3GR/ofWFIjr2bfapQmdUl3usnWwfMUAwFo0CGz9uNF6ETz/ZuXBn2z6mVaYNeA9xgb14s3
+                 FyU76n6XUKyzygGH2RlOohwZHiPmGn/6Xg/tsggidYM3Qa+UOEN2fYkem5KO8d9qFpQ9gu
+                 kDUX2Uhzs6aqvfLkhVK896HeeTXyiWv3/ngDheNsNsRHXNrPDf6mDtDQD1g4SvAM7a5LZc
+                 POHlk70nGVVK7GSljSTGZQGiWmemxgKSBsZ2Xw5+FafIvaGXG/+KLBP3TaINkPMc7jGjMb
+                 +9xrwQwu6oXRrvvKiD9fj7SyziDFdr7OliYhdjPUvDXiacJ7QBGM7TKF8nLDRIN8+3A50T
+                 1PXjKVGFHeJCErQIknW7M0F7ZBxETF0E8Y4BNAEqClNAx30nZGiLo2r09aqulFqqPV0s/H
+                 fu/bSInDj4x/Eoej3A+29D8OmHMJgZYdmpUlHYQf7/iMxAOVQ9NBsKUQhkONF0XNqCmteF
+                 QCTRZIRMHBb2ZiAOCINvka6Vp1maFu1jXfvy35fz1Ih9SAyz9E7qjAArXf+etiPlyAtmFx
+                 vD5jpRCFr6t5fBcYr08eBDHqlVYDrgVA/NAQ3/Vye4lAwi8NT+WqbJwj8WHOJlAIpVKH3v
+                 tlymXg3c1tSAjDu94r0Ao58qiX4MrbujgsdjZLlhkxr/yEE70uhYfxuoBFqHtt0EmayC8T
+                 iWYpvKkqOWNeBkjXzk3DJetFWVyRePISpdt5agoKCsrNICAz5DuJ7d+oELzZd7Ni3bFeWM
+                 k5dmD2oleFv9fKBA3rPHGPb4HsNWAq+BsxzX71OopZr/0ITrI+NhVPklnDHsHIZnL+CD40
+                 HAFoR82gQwq1CenPI/9mF2oylszYUHGDZFMzpssTqF8Z/6h8xbkgRtkpCNHjU6gAgnf2iE
+                 t8twPlueCC67s0PC+/LnMki6Abb42yPWU92jVRCUyC7VsMDifdAYd47/Zxw9fzE0TpoZY2
+                 //mqNVCT3gYXublYs7V8JZaw2qVmbT7USsz7r3PLMoU6TerlcwkIlrEKq1A2Vxyi0br3J4
+                 KSrBaToPUXg6bdMqOsmQ5MWfrWlFiHTec7D6U7nONj/m8Tkh2gvyjKwVqHbxE0x66Mp3O1
+                 IZEFGLFZ8/6cQDefLoMdZAdeLMuR4MagAyR6iY0evAdOXuq4LPPPSqBqPJYSDUUHsyYwhT
+                 9DD3l5ElnJxjsPLTqWyE3TtGR1SqedckEOD1+TLQ/B6v4AYVKEDf9cC2UB6qbEEO4AFWs+
+                 xPJqqjoxsz5Ts1DYwUF5Cr/DIL8sy/LqNooYSY0qog4nYyx08wVsVnJosYtrViD/og4Xx6
+                 bhFJ8pGrqXSLDDVFvBcMKyKLyfRUMaDuI57x6rrkSTxCIjyKp4ehSXQI47ruVCT9Do+Lag
+                 HM1vvtA5CSJHFUVrF+H+tgyvTGo=
+                -----END OPENSSH PRIVATE KEY-----
             scope: GLOBAL
 tool:
   sonarRunnerInstallation:
@@ -44,7 +80,7 @@ tool:
     sonarGlobalConfiguration:
       buildWrapperEnabled: true
       installations:
-       - name: "SonarQube"
+      - name: "SonarQube"
         serverUrl: "http://192.168.44.44:9000"
       
     
