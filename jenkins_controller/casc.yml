@@ -1,6 +1,6 @@
 ---
 jenkins:
- securityRealm:
+  securityRealm:
     local:
       users:
       - id: "panda"
