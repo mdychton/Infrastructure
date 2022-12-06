@@ -9,7 +9,7 @@ jenkins:
   credentials:
    - usernamePassword:
       - id: "artifactory"
-        name: : "admin"
+        name: "admin"
         password: "password"
         scope: GLOBAL
   numExecutors: 0 
