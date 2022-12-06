@@ -7,11 +7,13 @@ jenkins:
         name: "panda"
         password: "panda"
   credentials:
-   - usernamePassword:
-      - id: "artifactory"
-        name: "admin"
-        password: "password"
-        scope: GLOBAL
+    system:
+      domainCredentials:
+        - usernamePassword:
+          - id: "artifactory"
+            name: "admin"
+            password: "password"
+            scope: GLOBAL
   numExecutors: 0 
   authorizationStrategy:
     globalMatrix:
