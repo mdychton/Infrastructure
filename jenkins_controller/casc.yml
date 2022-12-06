@@ -27,7 +27,7 @@ jenkins:
             privateKeySource:
               directEntry:
                 privateKey: |
-                 ------BEGIN OPENSSH PRIVATE KEY-----
+                 ------BEGIN RSA PRIVATE KEY-----
                  b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABCRlftim+
                  qsLOaCIk5k9hbrAAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQD4H24EpBF8
                  r76tsZdusfNwkPSyeA2ulfQdTIENMeAN6iGem3E2vwe0FxPu+2JjdXfePjlXWqfJIahXMU
@@ -65,8 +65,8 @@ jenkins:
                  xPJqqjoxsz5Ts1DYwUF5Cr/DIL8sy/LqNooYSY0qog4nYyx08wVsVnJosYtrViD/og4Xx6
                  bhFJ8pGrqXSLDDVFvBcMKyKLyfRUMaDuI57x6rrkSTxCIjyKp4ehSXQI47ruVCT9Do+Lag
                  HM1vvtA5CSJHFUVrF+H+tgyvTGo=
-                -----END OPENSSH PRIVATE KEY-----
-            scope: GLOBAL
+                -----END RSA PRIVATE KEY-----
+              scope: GLOBAL
 tool:
   sonarRunnerInstallation:
     installations:
