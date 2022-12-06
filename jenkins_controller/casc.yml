@@ -65,8 +65,8 @@ jenkins:
                  xPJqqjoxsz5Ts1DYwUF5Cr/DIL8sy/LqNooYSY0qog4nYyx08wVsVnJosYtrViD/og4Xx6
                  bhFJ8pGrqXSLDDVFvBcMKyKLyfRUMaDuI57x6rrkSTxCIjyKp4ehSXQI47ruVCT9Do+Lag
                  HM1vvtA5CSJHFUVrF+H+tgyvTGo=
-                -----END RSA PRIVATE KEY-----
-              scope: GLOBAL
+                 -----END RSA PRIVATE KEY-----
+            scope: GLOBAL
 tool:
   sonarRunnerInstallation:
     installations:
