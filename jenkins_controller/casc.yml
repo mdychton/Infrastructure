@@ -1,4 +1,4 @@
-enkins:
+jenkins:
   securityRealm:
     local:
       users:
