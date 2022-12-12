@@ -67,7 +67,7 @@ credentials:
           scope: GLOBAL
 tool:
   sonarRunnerInstallation:
-    installations:
+    installations: 
     - name: "SonarQube"
       properties:
       - installSource:
