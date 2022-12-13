@@ -9,6 +9,18 @@ jenkins:
       permissions:
         - "Overall/Administer:panda"
   numExecutors: 0
+  nodes:
+  - permanent:
+      labelString: "agent"
+      launcher:
+        ssh:
+           credentialsId: "jenkins_agent"
+           host: "jenkins_agent"
+           port: 22
+           sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
+        name: "agent"
+        remote: "/home/jenkins/agent"
+        retentionStrategy: "always"
 
 credentials:
   system:
