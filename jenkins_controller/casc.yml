@@ -14,13 +14,13 @@ jenkins:
       labelString: "agent"
       launcher:
         ssh:
-           credentialsId: "jenkins_agent"
-           host: "jenkins_agent"
-           port: 22
-           sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
-        name: "agent"
-        remote: "/home/jenkins/agent"
-        retentionStrategy: "always"
+          credentialsId: "jenkins_agent"
+          host: "jenkins_agent"
+          port: 22
+          sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
+      name: "agent"
+      remoteFS: "/home/jenkins/agent"
+      retentionStrategy: "always"
 
 credentials:
   system:
