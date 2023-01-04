@@ -10,9 +10,9 @@ pipelineJob('app_of_apps') {
                 git {
                     remote {
                         credentials("")
-                        url("https://github.com/Panda-Academy-Core-2-0//App_of_apps")
+                        url("https://github.com/mdychton/Infrastructure.git")
                     }
-                    branches('main')
+                    branches('master')
                     scriptPath('Jenkinsfile')
                 }
             }
