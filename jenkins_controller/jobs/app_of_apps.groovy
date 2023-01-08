@@ -10,7 +10,7 @@ pipelineJob('app_of_apps') {
                 git {
                     remote {
                         credentials("")
-                        url("https://github.com/mdychton/Infrastructure.git")
+                        url("https://github.com/mdychton/App_of_apps")
                     }
                     branches('master')
                     scriptPath('Jenkinsfile')
