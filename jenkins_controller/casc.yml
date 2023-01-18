@@ -87,12 +87,12 @@ tool:
               id: "4.7.0.2747"
   terraform:
     installations: 
-      - name: "Teraform"
-        properties:
-        - installSource:
-            installers:
-            - terraformInstaller:
-                id: "21207-linux-amd64"
+    - name: "Terraform"
+      properties:
+      - installSource:
+          installers:
+          - terraformInstaller:
+              id: "21207-linux-amd64"
 jobs:
  - file: /usr/share/jenkins/ref/jobs/backend.groovy
  - file: /usr/share/jenkins/ref/jobs/frontend.groovy
